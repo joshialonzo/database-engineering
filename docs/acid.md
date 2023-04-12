@@ -20,7 +20,7 @@ Database transaction: It is a collection of queries that are treated as a single
     * COMMIT TX1
 * We always use a transaction but this type is manually handled by us, meanwhile, the default ones are handled automatically.
 
-Atomicity:
+Atomicity: A transaction is a single unit of work and cannot be split.
 
 Isolation:
 
